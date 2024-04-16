@@ -23,9 +23,9 @@ public class Employee {
                 "ID=" + ID +
                 ", name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
-                ", department=" + department +
+                ", department=" + department.toString() +
                 ", salary=" + salary +
-                ", dateOfBirth=" + dateOfBirth +
+                ", dateOfBirth=" + dateOfBirth.getDate() + "." + (dateOfBirth.getMonth()+1) + "." + (dateOfBirth.getYear()+1900) +
                 '}';
     }
 
