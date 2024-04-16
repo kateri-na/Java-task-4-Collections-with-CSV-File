@@ -50,4 +50,8 @@ public class CSVFileReader {
             System.out.println(employee.toString());
         }
     }
+
+    public LinkedList<Employee> getEmployeeList() {
+        return employeeList;
+    }
 }
